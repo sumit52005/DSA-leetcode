@@ -14,7 +14,7 @@ public:
        if(head==NULL || head->next==NULL){
             return NULL;
        }
-       ListNode *prev=NULL;
+       ListNode *prev=head;
        ListNode *slow=head;
        ListNode *fast=head;
 
